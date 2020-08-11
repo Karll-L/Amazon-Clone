@@ -4,7 +4,9 @@
   "description": "This is a test directory to learn Git and Node",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+	"start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"lite": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Karll-L/reactlearning/issues"
   },
-  "homepage": "https://github.com/Karll-L/reactlearning#readme"
+  "homepage": "https://github.com/Karll-L/reactlearning#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
 }
